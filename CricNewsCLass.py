@@ -11,7 +11,7 @@ class cricNewsCLass:
         r=requests.get(URL)
         soup=BeautifulSoup(r.content,'html5lib')
         table=soup.find_all('div', attrs={'class':'cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-lg'})
-        pref='PSL'
+       
         for div in table:
             news=div.text.strip()
             
