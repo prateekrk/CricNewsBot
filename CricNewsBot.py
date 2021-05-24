@@ -8,7 +8,7 @@ from CricNewsCLass import cricNewsCLass
 c=cricNewsCLass
 news=c.CricNews()
 
-API_KEY='1834421047:AAFM_dDrQuJOeC7pjY5UYy09pRuvnFGoMuU'
+API_KEY='YOUR_API_KEY ###' #from environment variables
 bot=telebot.TeleBot(API_KEY)
 @bot.message_handler(commands=['news'])
 
