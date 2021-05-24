@@ -19,6 +19,3 @@ class cricNewsCLass:
             if(link.has_attr('href')):
                 message.append("cricbuzz.com"+link['href'])
         return message
-c=cricNewsCLass
-c.CricNews()
-print(c.CricNews())
