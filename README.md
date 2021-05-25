@@ -5,3 +5,7 @@ packages used:
 
 pyTelegramBotApi for creating bot telegram bot and its responses.
 BeautifulSoup for web scrapping.
+
+commands: 
+/news
+
